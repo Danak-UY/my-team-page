@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <title>My Team Page - Dev Challenges</title>
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <script src="./js/dark-mode.js" defer></script>
+  </head>
+  <body
+    class="h-screen text-gray-dark transition dark:bg-gray-dark dark:text-white"
+    style="opacity: 0"
+  >
+    <div class="container flex min-h-full max-w-7xl flex-col gap-8 p-8 pt-24">
+      <header class="flex gap-8">
+        <div class="flex flex-col gap-16 md:gap-8 lg:flex-row">
+          <h1 class="mr-auto shrink-0 font-serif text-4xl font-bold">
+            The creative crew
+          </h1>
+          <div class="md:w-3/5 lg:w-1/3">
+            <h2 class="mb-3 text-lg font-semibold uppercase">Who we are</h2>
+            <p class="text-lg">
+              We are team of creatively diverse. driven. innovative individuals
+              working in various locations from the world.
+            </p>
+          </div>
+        </div>
+
+        <button
+          class="absolute right-8 top-8 mt-1 flex h-10 w-20 shrink-0 scale-75 items-center rounded-full bg-neutral-50 shadow transition duration-300 focus:outline focus:outline-offset-4 focus:outline-gold sm:static"
+          id="switch-button"
+          aria-label="Toggle dark mode"
+          aria-checked="false"
+        >
+          <div
+            id="switch-toggle"
+            class="relative h-12 w-12 -translate-x-2 transform rounded-full bg-gray-dark p-1 text-white transition duration-500"
+          ></div>
+        </button>
+      </header>
+
+      <main>
+        <section
+          class="my-16 grid grid-cols-2 gap-8 md:my-24 md:grid-cols-3 lg:gap-16"
+        >
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo1.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Bill Mahoney</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Product Owner
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo2.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Saba Cabrera</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Art Director
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo3.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Shae Le</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Tech Lead
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo4.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Skylah Lu</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Ux Designer
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo5.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Griff Richards</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Developer
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="relative pr-6 even:mt-24 md:even:mt-0 md:middle:mt-24">
+            <img src="./assets/photo6.png" alt="" class="rounded-lg" />
+            <figcaption>
+              <h3 class="pt-4 text-lg font-bold">Stan John</h3>
+              <p
+                class="absolute right-0 top-0 origin-top-right font-serif text-xs uppercase"
+                style="writing-mode: vertical-rl; text-orientation: mixed"
+              >
+                Developer
+              </p>
+            </figcaption>
+          </figure>
+        </section>
+      </main>
+
+      <footer>
+        <p class="text-center text-sm font-medium text-gray-x-light transition">
+          created by
+          <a
+            href="https://github.com/Danak-UY/"
+            class="font-bold hover:text-neutral-400 focus:outline focus:outline-offset-2 focus:outline-gold dark:hover:text-neutral-200"
+            target="_blank"
+          >
+            @Danak-UY
+          </a>
+          -
+          <a
+            href="https://devchallenges.io/"
+            class="hover:text-neutral-400 focus:outline focus:outline-offset-2 focus:outline-gold dark:hover:text-neutral-200"
+            target="_blank"
+          >
+            devChallenges.io
+          </a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

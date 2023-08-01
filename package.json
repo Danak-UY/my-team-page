@@ -1,0 +1,17 @@
+{
+  "name": "my-team-page_dev-challenges",
+  "version": "1.0.0",
+  "description": "Create my team page following the design",
+  "main": "index.js",
+  "scripts": {
+    "dist": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --minify",
+    "watch": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
