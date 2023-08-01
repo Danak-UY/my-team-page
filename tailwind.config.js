@@ -4,13 +4,17 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: ["./index.html", "./js/*.js"],
   darkMode: "class",
-  // variants: {
-  //   extend: {
-  //     margin: ["even", "odd"],
-  //   },
-  // },
   theme: {
     extend: {
+      scale: {
+        200: "2",
+      },
+      fontSize: {
+        xxs: "0.6875rem",
+      },
+      aspectRatio: {
+        person: "476 / 682",
+      },
       colors: {
         gray: {
           "x-light": "#BDBDBD",
