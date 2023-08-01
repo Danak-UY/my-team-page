@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
 const plugin = require("tailwindcss/plugin");
+const animationPlugin = require("tailwindcss-animate");
 
 module.exports = {
   content: ["./index.html", "./js/*.js"],
@@ -38,5 +40,6 @@ module.exports = {
     plugin(({ addVariant }) => {
       addVariant("middle", "&:nth-child(3n+2)");
     }),
+    animationPlugin
   ],
 };
