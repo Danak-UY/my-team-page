@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dist": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --minify",
-    "watch": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --watch"
+    "watch": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --watch",
+    "deploy": "surge --domain dk-my-team-page.surge.sh"
   },
   "author": "",
   "license": "ISC",
