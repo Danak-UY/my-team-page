@@ -30,7 +30,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
-      serif: ['"PT Serif"', "sans-serif"],
+      serif: ['"PT Serif"', "serif"],
     },
     container: {
       center: true,
@@ -40,6 +40,6 @@ module.exports = {
     plugin(({ addVariant }) => {
       addVariant("middle", "&:nth-child(3n+2)");
     }),
-    animationPlugin
+    animationPlugin,
   ],
 };
