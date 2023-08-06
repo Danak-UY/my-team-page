@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".person").forEach((person, index) => {
       setTimeout(() => {
         person.classList.remove("opacity-0");
-        person.classList.add(PERSON_ANIMATION);
+        person.classList.add(...PERSON_ANIMATION);
 
         setTimeout(() => {
           person.classList.remove("duration-500");

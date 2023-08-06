@@ -6,7 +6,8 @@
   "scripts": {
     "dist": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --minify",
     "watch": "npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --watch",
-    "deploy": "surge --domain dk-my-team-page.surge.sh"
+    "deploy": "surge --domain dk-my-team-page.surge.sh",
+    "publish": "npm run dist && npm run deploy"
   },
   "author": "",
   "license": "ISC",
